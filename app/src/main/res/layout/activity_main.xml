@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rayan.avik.autoscrooltextview.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:layout_margin="13dp"
+        android:text="I'm making a document reader app and I want a user to be able to ask the app the auto-scroll a document instead of the manual scrolling."
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+</RelativeLayout>
